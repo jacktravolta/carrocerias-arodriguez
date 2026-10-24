@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Propuestas de sitio web | Carrocerías Arodríguez SpA</title>
+<meta name="description" content="Tres propuestas de diseño para el sitio web de Carrocerías Alejandra Rodríguez SpA (Maipú, Santiago): minimalista clara, industrial oscura e híbrida.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#E30613">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<meta property="og:title" content="Propuestas de sitio web | Carrocerías Arodríguez SpA">
+<meta property="og:description" content="Tres propuestas de diseño para el sitio web de Carrocerías Alejandra Rodríguez SpA (Maipú, Santiago): minimalista clara, industrial oscura e híbrida.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CL">
+<meta property="og:image" content="img/og-image.png">
+<style>
+:root{--rojo:#E30613;--negro:#111;--gris:#f6f6f6;--borde:#e5e5e5}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{background:var(--gris);color:var(--negro)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 5%;background:#fff;border-bottom:3px solid var(--rojo)}
+.top img{display:block;height:44px;width:auto}
+.tag{font-size:13px;color:#666;font-weight:700;text-transform:uppercase;letter-spacing:1px}
+.intro{padding:44px 5% 10px;max-width:900px}
+.intro h1{font-size:32px;line-height:1.15}
+.intro p{margin-top:10px;color:#555;line-height:1.5}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:28px 5% 50px;max-width:1200px}
+.card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--borde);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--negro);transition:transform .15s ease,box-shadow .15s ease;position:relative}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.10)}
+.mock{height:110px;display:flex;flex-direction:column;justify-content:center;gap:8px;padding:16px}
+.mock .bar{height:8px;border-radius:4px}
+.mock .btn{height:22px;width:110px;border-radius:6px}
+.mock-1{background:#fff;border-bottom:1px solid var(--borde)}
+.mock-1 .bar{background:#d9d9d9}.mock-1 .btn{background:var(--rojo)}
+.mock-2{background:#0d0d0d}
+.mock-2 .bar{background:#3a3a3a}.mock-2 .btn{background:var(--rojo)}
+.mock-3{background:linear-gradient(180deg,#111 55%,#f8f8f8 55%)}
+.mock-3 .bar{background:#cfcfcf}.mock-3 .btn{background:var(--rojo)}
+.card h2{font-size:18px;padding:14px 16px 4px}
+.card p{font-size:14px;color:#555;padding:0 16px 16px;line-height:1.45}
+.ver{margin-top:auto;display:block;margin:0 16px 16px;background:var(--rojo);color:#fff;text-align:center;padding:10px;border-radius:8px;font-weight:800;font-size:14px;text-decoration:none}
+.badge{position:absolute;top:12px;right:12px;background:var(--rojo);color:#fff;font-size:11px;font-weight:800;padding:4px 10px;border-radius:999px;letter-spacing:.5px}
+footer{padding:18px 5% 30px;color:#777;font-size:13px;text-align:center}
+footer code{background:#fff;border:1px solid var(--borde);padding:2px 6px;border-radius:6px}
+@media(max-width:900px){.grid{grid-template-columns:1fr}.tag{display:none}}
+
+/* Modal politica de privacidad */
+.policy-modal{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:320;display:flex;align-items:center;justify-content:center;padding:20px}
+.policy-modal[hidden]{display:none}
+.policy-box{position:relative;width:min(920px,96vw);height:86vh;background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 24px 70px rgba(0,0,0,.45)}
+.policy-box iframe{width:100%;height:100%;border:0}
+.policy-close{position:absolute;top:10px;right:12px;z-index:2;width:40px;height:40px;border-radius:50%;border:0;background:#E30613;color:#fff;font-size:22px;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.35)}
+</style>
+</head>
+<body>
+<header class="top">
+  <img src="img/logo.png" alt="Carrocerías Arodríguez SpA" height="44">
+  <span class="tag">Propuestas de sitio web</span>
+</header>
+<main>
+  <section class="intro">
+    <h1>Propuestas de diseño web</h1>
+    <p>Tres alternativas de página principal para Carrocerías Arodríguez SpA. Cada propuesta es autónoma: tiene su propio HTML, CSS e imágenes dentro de su carpeta, lista para revisarse y subirse a hosting de forma independiente.</p>
+  </section>
+  <section class="grid">
+    <a class="card" href="propuesta-1-clara/index.html">
+      <div class="mock mock-1"><div class="bar" style="width:70%"></div><div class="bar" style="width:45%"></div><div class="btn"></div></div>
+      <h2>1 · Minimalista clara</h2>
+      <p>Blanco, limpio y enfocado en SEO. Furgones, cajas cerradas y reparación como servicios principales.</p>
+      <span class="ver">Ver propuesta</span>
+    </a>
+    <a class="card" href="propuesta-2-oscura/index.html">
+      <div class="mock mock-2"><div class="bar" style="width:70%"></div><div class="bar" style="width:45%"></div><div class="btn"></div></div>
+      <h2>2 · Industrial oscura</h2>
+      <p>Negra premium con acento rojo. Tono taller: fabricación, reparación y pintura industrial.</p>
+      <span class="ver">Ver propuesta</span>
+    </a>
+    <a class="card" href="propuesta-3-hibrida/index.html">
+      <span class="badge">Base para implementar</span>
+      <div class="mock mock-3"><div class="bar" style="width:70%"></div><div class="bar" style="width:45%"></div><div class="btn"></div></div>
+      <h2>3 · Híbrida</h2>
+      <p>Fiel al brief oficial: hero oscuro, servicios claros y contacto con WhatsApp directo.</p>
+      <span class="ver">Ver propuesta</span>
+    </a>
+  </section>
+</main>
+<footer>Formulario de contacto compartido: <code>enviar.php</code> · Cada propuesta envía a ventas@arodriguez.cl · <a href="politica-de-privacidad.html" data-policy style="color:#E30613;font-weight:700;text-decoration:none">Política de Privacidad</a> · © 2026 Carrocerías Arodríguez SpA · Desarrollado por <a href="https://creacionesharu.cl" target="_blank" rel="noopener">Creaciones Harú</a></footer>
+<div class="policy-modal" hidden role="dialog" aria-modal="true" aria-label="Política de privacidad"><div class="policy-box"><button type="button" class="policy-close" aria-label="Cerrar">×</button><iframe class="policy-frame" src="about:blank" title="Política de privacidad"></iframe></div></div>
+<script>
+// Modal de politica de privacidad (Ley 21.719)
+(function () {
+  var modal = document.querySelector('.policy-modal');
+  if (!modal) return;
+  var frame = modal.querySelector('iframe');
+  var closeBtn = modal.querySelector('.policy-close');
+  var opener = null;
+  function open(link) {
+    opener = link;
+    frame.src = link.href;
+    modal.hidden = false;
+    document.body.style.overflow = 'hidden';
+    closeBtn.focus();
+  }
+  function close() {
+    modal.hidden = true;
+    frame.src = 'about:blank';
+    document.body.style.overflow = '';
+    if (opener) { opener.focus(); opener = null; }
+  }
+  document.querySelectorAll('a[data-policy]').forEach(function (a) {
+    a.addEventListener('click', function (e) { e.preventDefault(); open(a); });
+  });
+  closeBtn.addEventListener('click', close);
+  modal.addEventListener('click', function (e) { if (e.target === modal) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !modal.hidden) close();
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+{
+  "count": 32,
+  "images": [
+    {
+      "file": "trabajo-01.webp",
+      "thumb": "trabajo-01-thumb.webp",
+      "width": 1229,
+      "height": 997,
+      "aspect": 1.233,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 13.44.38 (2).jpeg"
+    },
+    {
+      "file": "trabajo-02.webp",
+      "thumb": "trabajo-02-thumb.webp",
+      "width": 1119,
+      "height": 821,
+      "aspect": 1.363,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 13.44.38.jpeg"
+    },
+    {
+      "file": "trabajo-03.webp",
+      "thumb": "trabajo-03-thumb.webp",
+      "width": 1400,
+      "height": 903,
+      "aspect": 1.55,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 13.44.38 (1).jpeg"
+    },
+    {
+      "file": "trabajo-04.webp",
+      "thumb": "trabajo-04-thumb.webp",
+      "width": 1400,
+      "height": 1229,
+      "aspect": 1.139,
+      "orientation": "square",
+      "source": "WhatsApp Image 2026-08-20 at 13.44.39 (2).jpeg"
+    },
+    {
+      "file": "trabajo-05.webp",
+      "thumb": "trabajo-05-thumb.webp",
+      "width": 1400,
+      "height": 920,
+      "aspect": 1.522,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 13.44.39.jpeg"
+    },
+    {
+      "file": "trabajo-06.webp",
+      "thumb": "trabajo-06-thumb.webp",
+      "width": 1400,
+      "height": 1071,
+      "aspect": 1.307,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 13.44.39 (1).jpeg"
+    },
+    {
+      "file": "trabajo-07.webp",
+      "thumb": "trabajo-07-thumb.webp",
+      "width": 1076,
+      "height": 903,
+      "aspect": 1.192,
+      "orientation": "square",
+      "source": "WhatsApp Image 2026-08-20 at 13.48.21.jpeg"
+    },
+    {
+      "file": "trabajo-08.webp",
+      "thumb": "trabajo-08-thumb.webp",
+      "width": 1294,
+      "height": 1126,
+      "aspect": 1.149,
+      "orientation": "square",
+      "source": "WhatsApp Image 2026-08-20 at 13.48.21 (1).jpeg"
+    },
+    {
+      "file": "trabajo-09.webp",
+      "thumb": "trabajo-09-thumb.webp",
+      "width": 1400,
+      "height": 1068,
+      "aspect": 1.311,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 13.50.49.jpeg"
+    },
+    {
+      "file": "trabajo-10.webp",
+      "thumb": "trabajo-10-thumb.webp",
+      "width": 1400,
+      "height": 964,
+      "aspect": 1.452,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 13.50.49 (1).jpeg"
+    },
+    {
+      "file": "trabajo-11.webp",
+      "thumb": "trabajo-11-thumb.webp",
+      "width": 1400,
+      "height": 1017,
+      "aspect": 1.377,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.05.11.jpeg"
+    },
+    {
+      "file": "trabajo-12.webp",
+      "thumb": "trabajo-12-thumb.webp",
+      "width": 786,
+      "height": 719,
+      "aspect": 1.093,
+      "orientation": "square",
+      "source": "WhatsApp Image 2026-08-20 at 14.05.12.jpeg"
+    },
+    {
+      "file": "trabajo-13.webp",
+      "thumb": "trabajo-13-thumb.webp",
+      "width": 1242,
+      "height": 1107,
+      "aspect": 1.122,
+      "orientation": "square",
+      "source": "WhatsApp Image 2026-08-20 at 14.05.12 (1).jpeg"
+    },
+    {
+      "file": "trabajo-14.webp",
+      "thumb": "trabajo-14-thumb.webp",
+      "width": 1400,
+      "height": 1003,
+      "aspect": 1.396,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.05.13.jpeg"
+    },
+    {
+      "file": "trabajo-15.webp",
+      "thumb": "trabajo-15-thumb.webp",
+      "width": 1400,
+      "height": 1050,
+      "aspect": 1.333,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.05.13 (1).jpeg"
+    },
+    {
+      "file": "trabajo-16.webp",
+      "thumb": "trabajo-16-thumb.webp",
+      "width": 1400,
+      "height": 1101,
+      "aspect": 1.272,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.10.11.jpeg"
+    },
+    {
+      "file": "trabajo-17.webp",
+      "thumb": "trabajo-17-thumb.webp",
+      "width": 1400,
+      "height": 958,
+      "aspect": 1.461,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.10.12.jpeg"
+    },
+    {
+      "file": "trabajo-18.webp",
+      "thumb": "trabajo-18-thumb.webp",
+      "width": 1400,
+      "height": 777,
+      "aspect": 1.802,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.10.12 (1).jpeg"
+    },
+    {
+      "file": "trabajo-19.webp",
+      "thumb": "trabajo-19-thumb.webp",
+      "width": 1400,
+      "height": 961,
+      "aspect": 1.457,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.10.13.jpeg"
+    },
+    {
+      "file": "trabajo-20.webp",
+      "thumb": "trabajo-20-thumb.webp",
+      "width": 1400,
+      "height": 882,
+      "aspect": 1.587,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.10.13 (1).jpeg"
+    },
+    {
+      "file": "trabajo-21.webp",
+      "thumb": "trabajo-21-thumb.webp",
+      "width": 1400,
+      "height": 1250,
+      "aspect": 1.12,
+      "orientation": "square",
+      "source": "WhatsApp Image 2026-08-20 at 14.13.02.jpeg"
+    },
+    {
+      "file": "trabajo-22.webp",
+      "thumb": "trabajo-22-thumb.webp",
+      "width": 1164,
+      "height": 1378,
+      "aspect": 0.845,
+      "orientation": "portrait",
+      "source": "WhatsApp Image 2026-08-20 at 14.13.02 (1).jpeg"
+    },
+    {
+      "file": "trabajo-23.webp",
+      "thumb": "trabajo-23-thumb.webp",
+      "width": 1400,
+      "height": 875,
+      "aspect": 1.6,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.13.03.jpeg"
+    },
+    {
+      "file": "trabajo-24.webp",
+      "thumb": "trabajo-24-thumb.webp",
+      "width": 1050,
+      "height": 1400,
+      "aspect": 0.75,
+      "orientation": "portrait",
+      "source": "WhatsApp Image 2026-08-20 at 14.13.04.jpeg"
+    },
+    {
+      "file": "trabajo-25.webp",
+      "thumb": "trabajo-25-thumb.webp",
+      "width": 787,
+      "height": 1400,
+      "aspect": 0.562,
+      "orientation": "portrait",
+      "source": "WhatsApp Image 2026-08-20 at 14.14.51.jpeg"
+    },
+    {
+      "file": "trabajo-26.webp",
+      "thumb": "trabajo-26-thumb.webp",
+      "width": 1242,
+      "height": 957,
+      "aspect": 1.298,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.22.00.jpeg"
+    },
+    {
+      "file": "trabajo-27.webp",
+      "thumb": "trabajo-27-thumb.webp",
+      "width": 1400,
+      "height": 1157,
+      "aspect": 1.21,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.23.15.jpeg"
+    },
+    {
+      "file": "trabajo-28.webp",
+      "thumb": "trabajo-28-thumb.webp",
+      "width": 1400,
+      "height": 774,
+      "aspect": 1.809,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.23.15 (1).jpeg"
+    },
+    {
+      "file": "trabajo-29.webp",
+      "thumb": "trabajo-29-thumb.webp",
+      "width": 1400,
+      "height": 1050,
+      "aspect": 1.333,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.23.16.jpeg"
+    },
+    {
+      "file": "trabajo-30.webp",
+      "thumb": "trabajo-30-thumb.webp",
+      "width": 1368,
+      "height": 1400,
+      "aspect": 0.977,
+      "orientation": "square",
+      "source": "WhatsApp Image 2026-08-20 at 14.26.30.jpeg"
+    },
+    {
+      "file": "trabajo-31.webp",
+      "thumb": "trabajo-31-thumb.webp",
+      "width": 1400,
+      "height": 1027,
+      "aspect": 1.363,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 14.26.30 (1).jpeg"
+    },
+    {
+      "file": "trabajo-32.webp",
+      "thumb": "trabajo-32-thumb.webp",
+      "width": 1400,
+      "height": 882,
+      "aspect": 1.587,
+      "orientation": "landscape",
+      "source": "WhatsApp Image 2026-08-20 at 15.07.35.jpeg"
+    }
+  ]
+}
