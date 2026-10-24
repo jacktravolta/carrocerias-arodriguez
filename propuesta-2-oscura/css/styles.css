@@ -20,7 +20,7 @@ p{font-size:16px;line-height:1.55}
 /* Redes sociales */
 .social-card{display:flex;align-items:center;flex-wrap:wrap;gap:10px 14px;margin-top:16px;padding:14px 16px;border:1px solid rgba(255,255,255,.25);border-radius:12px;background:rgba(255,255,255,.06)}
 .social-title{font-size:13px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:#bbb;margin-right:4px}
-.social-card a{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:8px;color:#fff}
+.social-card a{display:flex;flex:0 0 auto;line-height:0;align-items:center;justify-content:center;width:40px;height:40px;border-radius:8px;color:#fff}
 .social-card a svg{width:22px;height:22px;fill:currentColor;display:block}
 .social-card a:hover,.social-card a:focus-visible,.social-card a:active{color:#E30613}
 
