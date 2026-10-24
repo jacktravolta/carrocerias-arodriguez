@@ -69,3 +69,10 @@ el index selector y la política de privacidad.
   `a09c5fa` logo transparente · `03cfe34` selector+privacidad · `f9ae250` este documento.
 - Publicación (a solicitud del cliente: "publica git"): push de la rama y fast-forward
   de `main` (historial lineal, sin merge commit). Ver hashes en `git log`.
+- Corrección post-publicación (`ffe51ef`, cliente reportó iconos desalineados en P1):
+  la card era byte-idéntica en las 3 propuestas; el defecto era óptico (FB era un disco
+  sólido a sangre completa frente a glifos delineados). FB pasó a glifo "f" simple
+  (viewBox 320×512) y las anclas quedaron como flex rígido con `line-height:0`.
+  Publicado en `main`.
+
+- Corrección 2 (cliente): línea "Ubicación:" eliminada de la lista de contacto en las 3 propuestas; la dirección queda visible en mapa-line y en el mapa. El domicilio legal se conserva en la política de privacidad.
