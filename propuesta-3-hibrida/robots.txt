@@ -1,0 +1,6 @@
+# Carrocerías Alejandra Rodríguez SpA — arodriguez.cl
+User-agent: *
+Allow: /
+Disallow: /.antispam/
+
+Sitemap: https://arodriguez.cl/sitemap.xml
