@@ -26,10 +26,18 @@ p{font-size:16px;line-height:1.55}
 .social-card a:hover,.social-card a:focus-visible,.social-card a:active{color:#E30613}
 
 /* Galeria animada (marquee) */
-.marquee{overflow:hidden;margin-top:16px}
-.marquee-track{display:flex;width:max-content;animation:marquee 40s linear infinite}
-.gal-item{flex:0 0 auto;margin-right:14px;background:none;border:0;padding:0;cursor:pointer}
+.marq-wrap{position:relative}
+.marquee{overflow-x:auto;scrollbar-width:none;margin-top:16px}
+.marquee::-webkit-scrollbar{display:none}
+.marquee-track{display:flex;width:max-content}
+.marq-btn{position:absolute;top:50%;transform:translateY(-50%);z-index:5;border:0;cursor:pointer;background:rgba(17,17,17,.6);color:#fff;width:44px;height:44px;border-radius:50%;font-size:26px;line-height:1;display:flex;align-items:center;justify-content:center;transition:background .2s ease}
+.marq-btn:hover,.marq-btn:focus-visible{background:#E30613}
+.marq-prev{left:8px}
+.marq-next{right:8px}
+.gal-item{flex:0 0 auto;margin-right:14px;background:none;border:0;padding:0;cursor:pointer;display:flex;flex-direction:column;align-items:stretch;position:relative}
 .gal-item img{width:300px;height:210px;object-fit:cover;border-radius:12px;display:block}
+/* Titulo del tipo de carroceria sobre la foto, con velo negro translucido para que se lea */
+.gal-tag{position:absolute;left:0;right:0;bottom:0;padding:7px 8px;font-size:13px;font-weight:700;line-height:1.25;text-align:center;color:#fff;background:rgba(0,0,0,.58);border-radius:0 0 12px 12px}
 .marquee:hover .marquee-track,.marquee:focus-within .marquee-track{animation-play-state:paused}
 @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.marquee-track{animation:none}.marquee{overflow-x:auto}}
@@ -38,6 +46,11 @@ p{font-size:16px;line-height:1.55}
 .lightbox[hidden]{display:none}
 .lb-img{max-width:88vw;max-height:78vh;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
 .lb-cap{color:#fff;text-align:center;margin-top:10px;font-size:14px}
+/* Lightbox: estado de carga y fallo (evita que el visor quede en blanco) */
+.lb-load,.lb-error{display:block;padding:26px 12px;color:#fff;font-size:14px;text-align:center}
+.lb-load{opacity:.85}
+.lb-error{max-width:420px;margin:0 auto;background:rgba(255,255,255,.12);border-radius:10px}
+.lb-load[hidden],.lb-error[hidden],.lb-img[hidden]{display:none}
 .lb-close,.lb-prev,.lb-next{border:0;cursor:pointer;background:rgba(255,255,255,.15);color:#fff;width:44px;height:44px;border-radius:50%;font-size:22px;line-height:1}
 .lb-close{position:absolute;top:18px;right:18px}
 .lightbox figure{margin:0;text-align:center}
