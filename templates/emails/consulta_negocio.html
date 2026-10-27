@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Nueva consulta desde la web</title>
+</head>
+<body style="margin:0;padding:0;background:#f8f8f8;font-family:Arial,Helvetica,sans-serif;color:#111;-webkit-text-size-adjust:100%">
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f8f8f8">
+<tr><td align="center" style="padding:28px 14px">
+
+  <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px;background:#ffffff;border:1px solid #eeeeee;border-radius:12px;border-collapse:separate;overflow:hidden">
+
+    <!-- Cabecera con el logo -->
+    <tr>
+      <td style="padding:18px 24px;border-bottom:3px solid #E30613">
+        <a href="{{SITIO}}" style="display:block;border:0;outline:none;text-decoration:none;line-height:0;-webkit-text-decoration:none">
+          <img src="{{LOGO}}" width="180" alt="Carrocerías Arodríguez SpA — https://arodriguez.cl" style="display:block;border:0;outline:none;text-decoration:none;height:auto;max-width:100%;font-family:Arial,sans-serif;font-size:14px;color:#555">
+        </a>
+      </td>
+    </tr>
+
+    <!-- Titulo -->
+    <tr>
+      <td style="padding:26px 24px 4px">
+        <h1 style="margin:0 0 6px;font-size:21px;line-height:1.3;color:#111111;font-weight:800">Nueva consulta desde la web</h1>
+        <p style="margin:0 0 18px;font-size:13px;line-height:1.5;color:#888888">Enviada el {{FECHA}}</p>
+      </td>
+    </tr>
+
+    <!-- Datos de contacto -->
+    <tr>
+      <td style="padding:0 24px 20px">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #eeeeee;border-radius:8px;border-collapse:separate">
+          <tr>
+            <td width="120" style="padding:11px 14px;font-size:12px;font-weight:800;color:#888888;text-transform:uppercase;letter-spacing:.4px;border-bottom:1px solid #eeeeee;background:#fafafa">Nombre</td>
+            <td style="padding:11px 14px;font-size:15px;color:#111111;border-bottom:1px solid #eeeeee">{{NOMBRE}}</td>
+          </tr>
+          {{FILA_EMPRESA}}
+          <tr>
+            <td width="120" style="padding:11px 14px;font-size:12px;font-weight:800;color:#888888;text-transform:uppercase;letter-spacing:.4px;border-bottom:1px solid #eeeeee;background:#fafafa">Teléfono</td>
+            <td style="padding:11px 14px;font-size:15px;color:#111111;border-bottom:1px solid #eeeeee">{{TELEFONO}}</td>
+          </tr>
+          <tr>
+            <td width="120" style="padding:11px 14px;font-size:12px;font-weight:800;color:#888888;text-transform:uppercase;letter-spacing:.4px;background:#fafafa">Email</td>
+            <td style="padding:11px 14px;font-size:15px"><a href="mailto:{{EMAIL}}" style="color:#E30613;font-weight:700;text-decoration:none">{{EMAIL}}</a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Mensaje -->
+    <tr>
+      <td style="padding:0 24px 20px">
+        <p style="margin:0 0 8px;font-size:12px;font-weight:800;color:#888888;text-transform:uppercase;letter-spacing:.4px">Mensaje</p>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f8f8f8;border:1px solid #eeeeee;border-radius:8px;border-collapse:separate">
+          <tr><td style="padding:14px;font-size:15px;line-height:1.6;color:#444444">{{MENSAJE}}</td></tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Boton responder -->
+    <tr>
+      <td style="padding:0 24px 24px">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td style="background:#E30613;border-radius:8px">
+              <a href="mailto:{{EMAIL}}?subject=Re%3A%20Consulta%20desde%20la%20web" style="display:inline-block;padding:12px 22px;font-size:15px;font-weight:800;color:#ffffff;text-decoration:none;border-radius:8px">Responder a {{NOMBRE_CORTO}}</a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Pie -->
+    <tr>
+      <td style="background:#111111;padding:16px 24px">
+        <p style="margin:0;font-size:12px;line-height:1.6;color:#bbbbbb">Consulta recibida desde la web · IP {{IP}} · <a href="{{SITIO}}" style="color:#ffffff;text-decoration:underline">arodriguez.cl</a></p>
+      </td>
+    </tr>
+
+  </table>
+
+</td></tr>
+</table>
+
+</body>
+</html>
