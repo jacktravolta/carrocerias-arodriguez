@@ -63,6 +63,9 @@ function smtp_config(): array
         // production mailbox; only the git-ignored local config overrides it,
         // so the deployed file never has to be edited by hand.
         'destinatario' => '',
+        // Submissions allowed per IP per hour (window stays 3600s). Counters
+        // are stored beside the script; only the local config may raise this.
+        'limite_envios' => '10',
         // true: upgrade to TLS with STARTTLS on non-465 ports. Only turn it
         // off against a local test sink; never against a real provider.
         'starttls'  => true,
@@ -375,6 +378,51 @@ if ($ts > 0 && (($ahora - $ts >= 0 && $ahora - $ts < 3) || ($ts - $ahora > 300))
     exit;
 }
 
+// Simple per-IP rate limit: max 10 submissions per hour, file based, fails open.
+// Counters live in a dot-folder beside this script, not in /tmp: shared hosts
+// clean /tmp on their own schedule, and the site directory is the one place the
+// account can always write. The folder gets a deny-all .htaccess so the JSON
+// files (md5 of the IP + timestamps, no customer data) are never served.
+function limite_envios(string $ip): bool
+{
+    $dir = __DIR__ . '/.antispam';
+    if (!@mkdir($dir, 0700, true) && !is_dir($dir)) {
+        return true; // storage unavailable: never block real customers
+    }
+    $htaccess = $dir . '/.htaccess';
+    if (!is_file($htaccess)) {
+        @file_put_contents($htaccess, "Require all denied\n");
+    }
+    $file = $dir . '/' . md5($ip) . '.json';
+    $ahora = time();
+    $hits = [];
+    if (is_file($file)) {
+        $data = json_decode((string) @file_get_contents($file), true);
+        if (is_array($data) && isset($data['hits']) && is_array($data['hits'])) {
+            $hits = $data['hits'];
+        }
+    }
+    $hits = array_values(array_filter($hits, function ($t) use ($ahora) {
+        return ($ahora - (int) $t) < 3600;
+    }));
+    // Threshold comes from the local config (or MAIL_SMTP_LIMITE_ENVIOS) so a
+    // test run can be widened without touching code. The 1-hour window above
+    // is deliberately fixed: entries always expire on their own.
+    $limite = (int) (smtp_config()['limite_envios'] ?? 0);
+    if ($limite < 1) {
+        $limite = 10;
+    }
+    if (count($hits) >= $limite) {
+        return false;
+    }
+    $hits[] = $ahora;
+    @file_put_contents($file, json_encode(['hits' => $hits]), LOCK_EX);
+    return true;
+}
+if (!limite_envios($_SERVER['REMOTE_ADDR'] ?? 'desconocida')) {
+    header('Location: ' . $origen . '?envio=bloqueado#contacto');
+    exit;
+}
 
 $nombre   = campo('nombre', 120);
 $empresa  = campo('empresa', 120);
