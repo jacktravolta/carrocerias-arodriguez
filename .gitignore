@@ -1,2 +1,19 @@
 imagenescrudas/
 .DS_Store
+
+# Local SMTP credentials for testing. Production reads them from
+# MAIL_SMTP_* environment variables instead.
+mail.local.php
+
+# FTP deploy credentials. Public repo — never commit these.
+ftp.local.json
+# Per-IP rate-limit counters created at runtime by enviar.php
+.antispam/
+
+# Client delivery report: generated locally, names the site's accounts.
+informe-entrega.html
+informe-entrega.pdf
+
+# Original photos delivered by the client. Only the optimized WebP versions
+# are versioned, same rule as imagenescrudas/.
+propuesta-3-hibrida/update/
